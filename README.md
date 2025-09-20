@@ -1,4 +1,4 @@
-# Análisis Predictivo de Videojuegos: Explorando el Éxito de la Nintendo Switch
+# Análisis Predictivo de Videojuegos: el caso de Nintendo Switch
 Autor: Macchi, Leandro Nicolás
 Profesor: Araque, Leandro
 Curso: Data Science 2, CODERHOUSE
