@@ -1,0 +1,16 @@
+import pandas as pd
+
+# --- INICIO DEL CÓDIGO ALTERNATIVO ---
+# Reemplazar la sección de la API con este código
+# Cargar el DataFrame directamente desde el archivo CSV
+file_path = 'rawg_games.csv'
+
+try:
+    df_games = pd.read_csv(file_path)
+    print("Base de datos cargada exitosamente desde 'rawg_games.csv'")
+except FileNotFoundError:
+    print(f"Error: El archivo '{file_path}' no se encuentra. Asegúrate de que está en el mismo directorio.")
+# --- FIN DEL CÓDIGO ALTERNATIVO ---
+
+# A partir de aquí, el resto de tu código de análisis (data wrangling, EDA, etc.)
+# puede continuar sin cambios.
