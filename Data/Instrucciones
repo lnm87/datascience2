@@ -1,1 +1,34 @@
+Instrucciones de Reproducibilidad
 
+
+Este proyecto no requiere una clave de API personal. 
+La base de datos utilizada para el análisis ya ha sido descargada y se encuentra en el repositorio bajo el nombre rawg_games.csv.
+
+Para ejecutar el notebook de principio a fin, sigue estos sencillos pasos:
+
+Descarga el repositorio: Clona o descarga el repositorio completo de GitHub.
+
+Abre el Notebook: Accede al archivo .ipynb del proyecto.
+
+Localiza la Sección de Carga de Datos: Busca la celda de código que originalmente se conectaba a la API. 
+Esta sección contiene comentarios que indican que ha sido reemplazada.
+
+Usa el Código Alternativo: Asegúrate de que la celda de código esté utilizando la siguiente función para cargar los datos directamente desde el archivo CSV.
+
+# Python
+#
+# import pandas as pd
+#
+# Reemplazar la sección de la API con este código
+# file_path = 'rawg_games.csv'
+#
+# try:
+#    df_games = pd.read_csv(file_path)
+#    print("Base de datos cargada exitosamente desde 'rawg_games.csv'")
+# except FileNotFoundError:
+#    print(f"Error: El archivo '{file_path}' no se encuentra. Asegúrate de que está en el mismo directorio.")
+#
+
+
+Ejecuta el Notebook: A partir de este punto, puedes ejecutar el resto del notebook en orden. 
+Todos los análisis, visualizaciones y modelos de machine learning funcionarán correctamente sin necesidad de una conexión a la API.
